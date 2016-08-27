@@ -8,7 +8,10 @@ namespace Nardax.Tests
     public class AsseblyExtensionsTests
     {
         [TestMethod]
-        public void GetAppSettingsValue_ValidKey_ReturnsValue()
+        public void GetAppSettingsValue_ValidKey_ReturnsValue()yyyyyyyyy
+            yyyyyyyyyy
+            yyyyyyyyyy
+            yyyyyyyyyy
         {
             var validKey = "ValidKey";
             var expectedAppSettingVlaue = "SomeValue";

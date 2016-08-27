@@ -7,9 +7,7 @@ namespace Nardax.UnitTests
     [TestClass]
     public class QueueExtensionsTest
     {
-        Queue<string> _queue;
-
-        public QueueExtensionsTest()
+ueExtensionsTest()
         {
             _queue = new Queue<string>();
             _queue.Enqueue("aa");
@@ -19,10 +17,7 @@ namespace Nardax.UnitTests
 
         [TestMethod]
         public void EnqueueRange()
-        {
-            _queue.EnqueueRange(new[] { "dd", "ee" });
-            Assert.AreEqual("aa", _queue.Dequeue());
-            Assert.AreEqual("bb", _queue.Dequeue());
+        {e());
             Assert.AreEqual("cc", _queue.Dequeue());
             Assert.AreEqual("dd", _queue.Dequeue());
             Assert.AreEqual("ee", _queue.Dequeue());

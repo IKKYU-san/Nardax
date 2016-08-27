@@ -10,7 +10,10 @@ namespace Nardax.Serialization
         // serialiserar ett värde  med valfi typ
 
         public string Serialize(T value)
-        {
+        {xxxxxxx
+                xxxxxxxxxx
+                xxxxxxxxx
+                xxxxxxxxxx
             using (var stream = new MemoryStream())
             {
                 var xs = new XmlSerializer(typeof(T));

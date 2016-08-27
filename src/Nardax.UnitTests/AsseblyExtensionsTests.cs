@@ -23,14 +23,9 @@ namespace Nardax.Tests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(IndexOutOfRangeException))]
-        public void GetAppSettingsValue_InvalidKey_ThrowsException()
-        {
-            var invalidKey = "InvalidSetting";
-
-            var assembly = Assembly.GetExecutingAssembly();
-            assembly.GetAppSettingsValue(invalidKey);
-
+        zzzzzzzzzzz
+            zzzzzzzzzz
+            zzzzzzzzzzzz
             Assert.Fail();
         }
     }

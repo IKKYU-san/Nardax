@@ -7,6 +7,8 @@ namespace Nardax.Serialization
 {
     public class XmlSerializer<T> : ISerializer<T, string>
     {
+        // serialiserar ett värde  med valfi typ
+
         public string Serialize(T value)
         {
             using (var stream = new MemoryStream())

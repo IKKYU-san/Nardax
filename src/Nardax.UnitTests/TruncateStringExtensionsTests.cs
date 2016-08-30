@@ -14,7 +14,6 @@ namespace Nardax.Tests
             _value = "123456789";
         }
 
-        [TestMethod]
         public void TruncateLeft_ValueIsLarger_TruncateRemovesLeftSide()
         {
             var expected = "9";
@@ -55,6 +54,17 @@ namespace Nardax.Tests
         }
 
         [TestMethod]
+        public void RemoveWhiteChars()
+        {
+            var testString = "i\twill \tsurvive\t";
+
+            var result = testString.RemoveWhiteChars();
+            var expected = "iwillsurvive";
+
+            Assert.AreEqual(expected, result);
+        }
+		
+		[TestMethod]
         public void RepeatMe()
         {
             var result = "käbbel".RepeatMe(3);
